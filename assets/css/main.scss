@@ -1,0 +1,125 @@
+---
+---
+
+/* Reset */
+html, body, div, object, h1, h2, h3, h4, h5, h6, p, blockquote, object, iframe, ol, ul, li, form, legend, label, table, header, footer, nav, section, figure, hgroup, span, aside, pre, a, img, tr, th, td, tbody, tfoot, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 300;
+}
+
+$min-width--sm: 300px;
+$min-width--md: 600px;
+$min-width--lg: 800px;
+
+@mixin min-width($media) {
+ @media only screen and (min-width: $media) { @content; }
+}
+
+@function tint($color, $percentage) {
+  @return mix(white, $color, $percentage);
+}
+
+@function shade($color, $percentage) {
+  @return mix(black, $color, $percentage);
+}
+
+header, footer, nav, section, article, main, figure, li {
+  display: block;
+}
+
+body {
+line-height: 1.5;
+height: 100%;
+display: grid;
+}
+
+.container {
+  margin-top: 2.75rem;
+}
+
+* {
+  box-sizing: border-box; }
+
+img {
+ max-width: 100%;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  grid-auto-rows: 50%;
+  grid-gap: 1.5em;
+  margin: 3rem -10% 0 -10%;
+  padding: 0;
+  }
+
+.hero {
+  margin: 0 auto;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.one-column {
+  max-width: 70%;
+  margin: 1.125rem auto;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 1;
+  margin-top: 1rem;
+}
+
+.logo-title {
+  text-align: center;
+  margin-top: .5rem;
+}
+
+h3 {
+  font-size: 24px;
+   line-height: 1.4;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.4;
+  margin-top: .5em;
+    @include min-width($min-width--md) {
+      font-size: 1.25em;
+    }
+    @include min-width($min-width--lg) {
+      font-size: 21px;
+    }
+}
+
+.logo {
+display: block;
+margin: 0 auto;
+height: 10vh;
+}
+
+.lead__image {
+  margin: 2rem 0;
+}
+
+.hero p:nth-of-type(1) {
+  font-size: 2rem;
+}
+
+.hero p:nth-of-type(2) {
+  margin-top: 1rem;
+}
+
+.project {
+  margin-top: 2rem;
+}
+
+footer {
+  margin-top: 5rem;
+  text-align: center;
+}

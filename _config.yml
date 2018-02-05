@@ -1,0 +1,35 @@
+title: Tinykite
+email: dakota@tinykitelab.com
+description: Tiny Kite is the interdisciplinary design practice of Dakota Sexton, a fierce bird with an appetite for code and creative storytelling.
+baseurl: ""
+url: "" 
+
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+  blog_tags:
+    title: Tags
+    output: true
+
+defaults:
+- scope:
+    path: ''
+    type: blog_tags
+  values:
+    layout: tag
+
+
+exclude:
+- Gemfile
+- Gemfile.lock
+- node_modules
+- vendor/bundle/
+- vendor/cache/
+- vendor/gems/
+- vendor/ruby/
