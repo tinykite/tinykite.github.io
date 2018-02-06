@@ -37,7 +37,7 @@ line-height: 1.5;
 height: 100%;
 display: grid;
  a:link, a:visited {
-    color: #57bb9e;
+    color: #364883;
     font-weight: normal;
     text-decoration: none;
   }
@@ -142,8 +142,9 @@ height: 10vh;
 }
 
 footer {
-  margin-top: 5rem;
+  margin: 2rem 0;
   text-align: center;
+  color: #999;
 }
 
 .button { font-size: 1rem; margin: 2rem 0; display: block; }
