@@ -36,6 +36,14 @@ body {
 line-height: 1.5;
 height: 100%;
 display: grid;
+ a:link, a:visited {
+    color: #57bb9e;
+    font-weight: normal;
+    text-decoration: none;
+  }
+  a:hover, a:active {
+    text-decoration: underline;
+  }
 }
 
 .container {
@@ -97,6 +105,20 @@ p {
     }
 }
 
+.gameoflife {
+  max-width: 80%;
+  margin: 0 auto; 
+  display: block;
+  padding: 2rem 0;
+}
+
+article p img {
+  padding: 1rem 0;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
 .logo {
 display: block;
 margin: 0 auto;
@@ -104,7 +126,7 @@ height: 10vh;
 }
 
 .lead__image {
-  margin: 2rem 0;
+  margin: 1rem 0;
 }
 
 .hero p:nth-of-type(1) {
@@ -123,3 +145,7 @@ footer {
   margin-top: 5rem;
   text-align: center;
 }
+
+.button { font-size: 1rem; margin: 2rem 0; display: block; }
+.button a, .button a:visited { color: #ffffff; background: #999; display: inline-block; text-decoration: none; padding: .75em 1.75em; border: .25em 1em; border-radius: 3px; transition: background-color 0.1s ease; }
+.button a:hover, .button a:active { background: #333; color: #fff; text-decoration: none; }

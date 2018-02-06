@@ -9,7 +9,7 @@ Fergus Falls is a small town (population 13,138) in West Central Minnesota. It i
 
 My residency concluded at the end of May, but my enthusiasm for producing unconventional community engagement projects in town certainly hasn't.
 
-In November, Springboard for the Arts invited me to illustrate a totebag that would be given to participants who successfully foraged ingredients from local businesses in a city-wide picnic scavenger hunt. 
+In September, Springboard for the Arts invited me to illustrate a totebag that would be given to participants who successfully foraged ingredients from local businesses in a city-wide picnic scavenger hunt. 
 
 ![Photo of totebag](/assets/img/Totebag.jpg)
 _Photo by Springboard for the Arts — Lake Region_

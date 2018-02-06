@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Makers and Shakers"
+title: "Makers & Shakers"
 description: "Identity Design, Print"
 weight: 1
 image: Makers-Shakers-Revised-C.jpg
