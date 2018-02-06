@@ -9,6 +9,8 @@ Botanic Romantic is an online foraging guide and interdisciplinary art project w
 
 In addition to the website, the project has included a limited run of 500 letterpress coasters, a pop-up bar serving free foraged beverages, and an "art of weeds" class where storytelling and design thinking exercises were juxtaposed with horticultural education and lore. 
 
+[Visit the website >>](http://www.botanicromantic.com)
+
 ![Screenshot of Sweet Cicely Guide](/assets/img/screenshots/botanicromantic-sweet-cicely-browser.png)
 ![Screenshot of Plant Index](/assets/img/screenshots/botanicromantic-plant-index-browser.png)
 ![Screenshot of Sumac Recipe](/assets/img/screenshots/botanicromantic-sumac-recipe-browser.png)
