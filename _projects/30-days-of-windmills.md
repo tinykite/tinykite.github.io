@@ -17,7 +17,7 @@ There were also, unfortunately, windmills intended to represent historical forms
 
 After a little over a month of countless Google image searches, and numerous experimental design concepts (not least of which was “What would a Christmas sweater look like as a windmill?”), I decided that it was time to finish the project and move on to other work.
 
-Without further note, twenty-seven more windmills:
+So without further note, here's twenty-five more windmills:
 
 ![Illustration of Windmill](/assets/img/windmills/Windmill-1.png)
 ![Illustration of Windmill](/assets/img/windmills/Windmill-2.png)
