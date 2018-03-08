@@ -2,7 +2,7 @@
 layout: post
 title: "Makers & Shakers"
 description: "Identity Design, Print"
-weight: 1
+weight: 2
 image: Makers-Shakers-Revised-C.jpg
 ---
 Identity design and promotional materials for Carolyn Mecklin's Makers & Shakers project, a solo exhibition of acrylic paintings of 13 artists and cultural leaders of Lowertown, Saint Paul. 

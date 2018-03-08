@@ -2,7 +2,7 @@
 layout: post
 title: "Liz Pechacek"
 description: "Identity Design, Web Design & Development"
-weight: 5
+weight: 6
 image: screenshots/lizpechacek-item-browser.png
 ---
 Identity design and website for Liz Pechacek, a ceramic artist in Minneapolis, Minnesota. The branding reflects the surface design of her functional and sculptural ceramics, her roots as a potter, and her uniquely hip (and modern) yet hand-hewn aesthetic. 
