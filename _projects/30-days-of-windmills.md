@@ -3,7 +3,7 @@ layout: post
 title: "30 Days of Windmills"
 description: "Illustration"
 weight: 11
-image: windmill-post.png
+image: Windmill-post.png
 ---
 My perspective as a designer has often been informed by a love of typography and interest in storytelling. When I first taught myself web design around the impressionable age of 12 or 13, it was to be able to publish my own poetry. (And to make my Neopets store look cool. Let’s be honest.)
 
