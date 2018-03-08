@@ -49,7 +49,7 @@ time { font-style: italic;
 .logo {
 	font-size: 21px;
 	text-align: center;
-color: #E2D0B3; 
+color: #999; 
 font-style: italic;}
 
 	h1 { font-size: 3.75rem;
@@ -67,7 +67,8 @@ h1, .logo, footer {
 }
 
 h1 {line-height: 1.5;
-color: #235B56;}
+color: lighten(#3C5651, 10%);
+}
 
 img {
 	max-width: 100%;
