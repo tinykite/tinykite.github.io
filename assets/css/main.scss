@@ -94,6 +94,11 @@ main {
   }
 }
 
+h2 {
+  margin: 1.5rem 0 0.5rem;
+  line-height: 1.4;
+}
+
 h3 {
   font-size: 1.25em;
   line-height: 1.4;
@@ -129,8 +134,7 @@ p {
 }
 
 article p img {
-  padding: 1rem 0;
-  margin: 0 auto;
+  margin: 2rem 0;
   display: block;
   text-align: center;
 }
