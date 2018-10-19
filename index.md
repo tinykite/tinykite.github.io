@@ -1,7 +1,6 @@
 ---
 layout: projects
 ---
-Dakota Sexton is a writer, designer, and web developer with a deep love of food, foraging, and coffee. 
+Dakota Sexton is a web designer, frontend developer, and writer who creates compelling, narrative-driven work.
 
-_Saint Paul, Minnesota based. Tiny yet fierce._
-
+_Tiny yet fierce. Unabashedly loves coffee science, bikes, and antique type._
