@@ -8,16 +8,18 @@ html, body {
   border: 0;
 }
 
-h1, h2, h3, h4, h5 {
-  font-weight: 300;
+img {
+  max-width: 100%;
+  display: block;
 }
 
-$min-width--sm: 300px;
-$min-width--md: 600px;
-$min-width--lg: 800px;
+$min-width--sm: 31.25rem;
+$min-width--md: 37.5rem;
+$min-width--lg: 50rem;
+$min-width--xl: 75rem;
 
 @mixin min-width($media) {
- @media only screen and (min-width: $media) { @content; }
+ @media (min-width: $media) { @content; }
 }
 
 @function tint($color, $percentage) {
@@ -32,89 +34,10 @@ header, footer, nav, section, article, main, figure, li {
   display: block;
 }
 
-body {
-  line-height: 1.5;
-  height: 100%;
-  display: grid;
-  
-  a:link, a:visited {
-    color: #364883;
-    font-weight: normal;
-    text-decoration: none;
-  }
-  
-  a:hover, a:active {
-      text-decoration: underline;
-  }
-}
-
-.container {
-  margin-top: 1rem;
-
-  @include min-width($min-width--md) {
-    margin-top: 2.75rem;
-  }
-}
-
-* {
-  box-sizing: border-box;
-}
-
-img {
-  max-width: 100%;
-}
-
-main {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-gap: 1.5em;
-  padding: 0;
-  margin-top: 1.5rem;
-  
-  @include min-width($min-width--md) {
-    margin-top: 2.75rem;
-  }
-  
-  @include min-width($min-width--lg) {
-    margin: 3rem -15% 0 -15%;
-  }
-}
-
-.one-column {
-  margin: 1.125rem auto;
-  max-width: 90%;
-   
-  @include min-width($min-width--md) {
-    max-width: 80%;
-  }
-  
-  @include min-width($min-width--lg) {
-    max-width: 60%;
-  }
-}
-
-h2 {
-  margin: 1.5rem 0 0.5rem;
-  line-height: 1.4;
-}
-
-h3 {
-  font-size: 1.25em;
-  line-height: 1.4;
-  
-  @include min-width($min-width--md) {
-    font-size: 1.3125em;
-  }
-  
-  @include min-width($min-width--lg) {
-    font-size: 1.5em;
-  }
-}
-
 p {
   font-size: 1em;
   line-height: 1.4;
-  margin-top: .5em;
+  margin-top: 0.75em;
   
   @include min-width($min-width--md) {
     font-size: 1.25em;
@@ -125,17 +48,17 @@ p {
   }
 }
 
-.gameoflife {
-  max-width: 80%;
-  margin: 0 auto; 
-  display: block;
-  padding: 2rem 0;
+.constrain-width {
+  width: 90%;
+  margin: 0 auto;
 }
 
-article p img {
-  margin: 2rem 0;
-  display: block;
-  text-align: center;
+.site-nav {
+  margin-top: 2rem;
+
+  @include min-width($min-width--md) {
+    margin-top: 4rem;
+  }
 }
 
 .logo {
@@ -144,70 +67,137 @@ article p img {
   height: 10vh;
 }
 
-.lead__image {
-  margin: 1rem 0;
-}
-
-.hero {
+.intro {
   margin: 0 auto;
   padding-top: 1rem;
   text-align: center;
-}
 
-.hero p:nth-of-type(1) {
-  font-size: 1.3125em;
-    
+  @include min-width($min-width--md) {
+    width: 65%;
+  }
+
+  p:first-child {
+    font-size: 1.3125rem;
+
     @include min-width($min-width--md) {
-      font-size: 1.5em;
+      font-size: 2rem;
+      margin: 1rem 0 0;
     }
-
-    @include min-width($min-width--lg) {
-      font-size: 2em;
-    }
+  }
 }
 
-.hero p:nth-of-type(2) {
-  margin-top: 1rem;
-  font-size: 1.125em;
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1.5em;
+  padding: 0;
+  margin-top: 1.5rem;
   
   @include min-width($min-width--md) {
-    font-size: 1.3125em;
+    margin-top: 2.75rem;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @include min-width(1000px) {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
 .project {
   margin-top: 2rem;
-  
+
   @include min-width($min-width--lg) {
-    max-width: 90%;
+    width: 65%;
     margin: 2rem auto;
   }
+
+  @include min-width($min-width--xl) {
+    width: 60%;
+  }
+
+  &__image {
+      margin: 1rem auto;
+  }
+
+  &__title {
+    padding: 0;
+    margin: 0;
+    font-family: freight-text-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  &__desc {
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+    font-family: freight-text-pro, serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  p {
+    a:link, a:visited {
+      color: #364883;
+      font-weight: normal;
+      text-decoration: none;
+    }
+    
+    a:hover, a:active {
+        text-decoration: underline;
+    }
+  }
+
+  p > img {
+    margin: 2rem auto;
+  }
+
+  &__button { 
+    margin: 2rem 0;
+    display: block; 
+    font-family: freight-sans-pro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1rem;
+
+    & a, & a:visited {
+      color: #ffffff; 
+      background: #999; 
+      display: inline-block; 
+      text-decoration: none; 
+      padding: .75em 1.75em; 
+      border: .25em 1em; 
+      border-radius: 3px; 
+      transition: background-color 0.1s ease; 
+    }
+
+    & a:hover, & a:active {
+      background: #333; 
+      color: #fff; 
+      text-decoration: none; 
+    }
+  }
+}
+
+.animation {
+  width: 80%;
+  margin: 0 auto; 
+  display: block;
+  padding: 2rem 0;
 }
 
 footer {
   margin: 2rem 0;
   text-align: center;
   color: #999;
-}
 
-.button { 
-  font-size: 1rem;
-  margin: 2rem 0;
-  display: block; 
-}
-.button a, .button a:visited { 
-  color: #ffffff; 
-  background: #999; 
-  display: inline-block; 
-  text-decoration: none; 
-  padding: .75em 1.75em; 
-  border: .25em 1em; 
-  border-radius: 3px; 
-  transition: background-color 0.1s ease; 
-}
-
-.button a:hover, .button a:active { 
-  background: #333; 
-  color: #fff; 
-  text-decoration: none; 
+  a:link, a:visited {
+    color: #999;
+    font-weight: normal;
+    text-decoration: none;
+  }
+  
+  a:hover, a:active {
+      text-decoration: underline;
+  }
 }
