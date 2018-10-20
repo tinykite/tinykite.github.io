@@ -53,7 +53,7 @@ Using [Sketch](https://www.sketchapp.com/), I created a couple of test illustrat
 
 The current iteration published to [Paul's website](http://psexton.net) remains relatively simple: only five generations of a GoL “board” configuration – which was designated at random by Golly – are animated.
 
-<svg class="gameoflife" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 438 360">
+<svg class="animation" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 438 360">
   <defs>
     <ellipse id="path-1" cx="30.8635392" cy="19.3007916" rx="4.5" ry="4.5" />
     <mask id="mask-2" x="0" y="0" width="9" height="9" fill="#fff">
