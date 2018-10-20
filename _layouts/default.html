@@ -11,10 +11,14 @@
     <link rel="stylesheet" href="https://use.typekit.net/zod2crj.css">
   </head>
   <body>
-    <div class="one-column">
+    <div class="constrain-width">
+    <nav class="site-nav">
       {% include header.html %}
+    </nav>
         {{ content }}
+    <footer class="site-footer">
       {% include footer.html %}
+    </footer>
     </div>
   </body>
 </html>
