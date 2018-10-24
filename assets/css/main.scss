@@ -116,7 +116,7 @@ p {
   }
 
   &__image {
-      margin: 1rem auto;
+    margin: 1rem auto;
   }
 
   &__title {
@@ -149,7 +149,7 @@ p {
   }
 
   p > img {
-    margin: 2rem auto;
+    padding: 2rem 0;
   }
 
   &__button { 
@@ -179,11 +179,33 @@ p {
   }
 }
 
+.img-emphasis {
+  @include min-width($min-width--lg) {
+    width: 120%;
+    margin: 0 -10%;
+  }
+}
+
 .animation {
   width: 80%;
   margin: 0 auto; 
   display: block;
   padding: 2rem 0;
+}
+
+.fluid-video {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 1.5625rem;
+  height: 0;
+  margin: 2rem 0;
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
 }
 
 footer {
