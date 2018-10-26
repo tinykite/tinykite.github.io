@@ -16,4 +16,10 @@ So I decided to draw my own take on the tiny animal, and in an aesthetic style t
 In the future, I'd really love for the artwork to be repurposed into vinyl stickers that Fergus Falls restaurants can use to demonstrate their committment to using local, healthy ingredients. 
 
 ![Photo of totebag](/assets/img/Totebag.jpg)
-_Photo by Springboard for the Arts_
+
+## Credits 
+
+_Photography: Springboard for the Arts — Lake Region_  
+_Client: Springboard for the Arts_
+
+My Role: Illustration
