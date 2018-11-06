@@ -16,7 +16,7 @@ I took a multidisciplinary, lead role on the project, tackling everything from c
 ## Gathering Inspiration
 During the discovery phase of the project, I learned that A Modern Eden began as a passion project for illustrator Ryan Clark. Back in 2011, he was on the verge of becoming a dad — and he wanted to fill his new nursery with beautiful, meaningful objects. Yet he couldn't find anything that spoke to his sense of style. So he began drawing animals in his free time, in the style of mid-century illustrator [Charlie Harper](https://www.charleyharperartstudio.com/). 
 
-40+ drawings later, when it was clear the idea had legs, Clark teamed up with his coworkers and launched a series of print and digital products under the A Modern Eden name: including a series of handmade, screenprinted posters printed on 100lb French paper.
+40+ drawings later, when it was clear the idea had legs, Clark teamed up with his coworkers and launched a series of print and digital products under the A Modern Eden name: including a series of handmade, screenprinted posters printed on 100lb [French paper](https://www.frenchpaper.com/).
 
 ![Photo of screenprinted posters depicting A Modern Eden animals](/assets/img/ame-posters-wall.png)
 {: .img-emphasis}
