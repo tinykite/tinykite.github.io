@@ -2,7 +2,7 @@
 layout: post
 title: "Aeropress Brew Guide"
 description: "Illustration, Web"
-weight: 2
+weight: 7
 image: aeropress-post-header.png
 ---
 ![Screenshot of website](/assets/img/aeropress-post-1.png)

@@ -2,7 +2,7 @@
 layout: post
 title: "Love Local Food / Love Fergus Falls"
 description: "Illustration, Print"
-weight: 1
+weight: 2
 image: Love-Local-Food-Thumb.jpg
 ---
 In the fall of 2017 [Springboard for the Arts](https://springboardforthearts.org/) asked me to create an illustration for totebags that would be given away as a prize for participants who successfully finished a city-wide picnic scavenger hunt in Fergus Falls — a rural Minnesota community (population 13,138) about an hour from Fargo, North Dakota. 

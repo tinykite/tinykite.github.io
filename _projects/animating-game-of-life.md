@@ -2,7 +2,7 @@
 layout: post
 title: "PSA: Conway's Game of Life is a Gateway Drug"
 description: "Visual Identity, Animation, Web Design & Development"
-weight: 7
+weight: 9
 image: screenshots/paulsexton-homepage-browser.png
 ---
 It started simple. My brother [Paul](http://psexton.net) asked me if I could create a business card for him. He's a software engineer by day, maker of bad dad jokes at night. He off-handedly mentioned that he's always been fascinated with the mathematical algorithm known as [Conway's Game of Life](http://conwaylife.com/wiki/Conway%27s_Game_of_Life). And sort of wanted that in easily digestible, logo form. 

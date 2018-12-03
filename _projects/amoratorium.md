@@ -2,7 +2,7 @@
 layout: post
 title: "Amoratorium"
 description: "Art Direction, Graphic Design"
-weight: 9
+weight: 10
 image: Amoratorium-Thumb.jpg
 ---
 Envisioned as an artful coffee table book with an accompanying LP, Amoratorium is a hybrid poetry, music, and art project inspired by Bonnie and Clyde. The book features music and poetry by Brian Laidlaw and illustrations by Allegra Lockstadt.

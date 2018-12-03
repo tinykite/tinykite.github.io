@@ -2,7 +2,7 @@
 layout: post
 title: "Botanic Romantic: Website"
 description: Illustration, Writing & Editing, Web Development (and more)
-weight: 3
+weight: 5
 image: botromantic-foraging101-header.png
 ---
 Botanic Romantic is an online foraging guide and interdisciplinary art project which celebrates the wonder of seemingly mundane or weedy yet edible plants. It began as a creative placemaking project as part of the Hinge Arts at the Kirkbride program — a community development initiative and artist residency hosted on the grounds of the former Kirkbride State Hospital in Fergus Falls, Minnesota. 

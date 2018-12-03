@@ -2,7 +2,7 @@
 layout: post
 title: "Endless Toast Nostalgia"
 description: "Illustration, Animation"
-weight: 6
+weight: 8
 image: toast-thumb.png
 ---
 I'm gluten-free. I don't particularly love gluten-free bread. It's not very good. And yet I don't think I'll ever stop feeling nostalgic about toast. Even gluten-free toast. 

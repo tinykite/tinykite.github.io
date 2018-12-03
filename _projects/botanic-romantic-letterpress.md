@@ -2,7 +2,7 @@
 layout: post
 title: "Botanic Romantic: Letterpress Edition"
 description: "Illustration, Bad Jokes, Print"
-weight: 5
+weight: 6
 image: StingingNettle.jpg
 ---
 Botanic Romantic is an [online foraging guide](http://www.botanicromantic.com) and interdisciplinary art project which celebrates the wonder of seemingly mundane or weedy yet edible plants. It began as a creative placemaking project as part of the Hinge Arts at the Kirkbride program — a community development initiative and artist residency hosted on the grounds of the former Kirkbride State Hospital in Fergus Falls, Minnesota.
