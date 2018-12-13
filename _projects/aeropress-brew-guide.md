@@ -1,10 +1,11 @@
 ---
+title: Aeropress Brew Guide
 layout: post
-title: "Aeropress Brew Guide"
-description: "Illustration, Web"
+description: Illustration, Web
 weight: 7
 image: aeropress-post-header.png
 ---
+
 ![Screenshot of website](/assets/img/aeropress-post-1.png)
   
 Quick, unfussy guide to making Aeropress coffee. Written using my own personal notes and the recipe barista pro [Paulina Miczka](http://www.instagram.com/panda_brews) used to win the 2017 [World Aeropress Championships](https://www.worldaeropresschampionship.com). It's a one-off project for now, but I think it'd be fun to create a series of manual brewing guides.

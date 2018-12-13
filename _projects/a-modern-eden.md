@@ -1,10 +1,11 @@
 ---
+title: A Modern Eden
 layout: post
-title: "A Modern Eden"
 description: Design, Web Development, Copywriting
 weight: 1
 image: ame-hero.png
 ---
+
 During the summer of 2018 I had the pleasure of participating in the [Frontend Design Apprenticeship at Sparkbox](https://seesparkbox.com/foundry/2018_fed_apprentice_announcement). For four months, I worked on real-world projects, paired with industry-leading designers and developers, and honed my expertise in topics ranging from [how to use accessibility as a design constraint](https://seesparkbox.com/foundry/accessible_by_design) to [how cleanly code randomness into a CSS animation of bubbles.](https://seesparkbox.com/foundry/scrolling_css_animations)
 
 My final challenge as an apprentice was to create a marketing website for A Modern Eden: a line of artful products for style-savvy parents who care about what goes into their kids' rooms.
