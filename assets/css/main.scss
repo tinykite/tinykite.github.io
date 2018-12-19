@@ -157,23 +157,20 @@ p {
     margin: 2rem 0;
     display: block; 
     font-family: freight-sans-pro, sans-serif;
-    font-weight: 600;
-    font-style: normal;
+    font-weight: bold;
     font-size: 1rem;
 
     & a, & a:visited {
-      color: #ffffff; 
-      background: #999; 
+      color: #364883; 
       display: inline-block; 
       text-decoration: none; 
       padding: .75em 1.75em; 
-      border: .25em 1em; 
-      border-radius: 3px; 
+      border: 2px solid #364883; 
       transition: background-color 0.1s ease; 
     }
 
     & a:hover, & a:active {
-      background: #333; 
+      background: #364883; 
       color: #fff; 
       text-decoration: none; 
     }
@@ -212,10 +209,10 @@ p {
 footer {
   margin: 2rem 0;
   text-align: center;
-  color: #999;
+  color: #545151;
 
   a:link, a:visited {
-    color: #999;
+    color: #545151;
     font-weight: normal;
     text-decoration: none;
   }
