@@ -1,5 +1,8 @@
 ---
 ---
+h1 {
+	margin: 0;
+}
 
 h2, h3, h4, h5 {
 	font-weight: 700;
@@ -30,7 +33,10 @@ h2 {
 margin-top: 1rem;
 line-height: 1; }
 
-ul {margin-top: 1rem;}
+ul {
+	margin-top: 1rem;
+	padding: 0;
+}
 
 li { list-style: none;
 	 line-height: 1.5;}
