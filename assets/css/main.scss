@@ -1,189 +1,27 @@
 ---
 ---
+// Settings
+@import "settings.color-variables";
+@import "settings.mixins";
+@import "settings.breakpoints";
+@import "settings.functions";
 
-/* Reset */
-html, body {
-  margin: 0;
-  padding: 0;
-  border: 0;
-}
+// Generic
+@import "generic.foundation";
 
-img {
-  max-width: 100%;
-  display: block;
-}
+// Elements
+@import "elements.layout";
+@import "elements.typography";
 
-$min-width--sm: 31.25rem;
-$min-width--md: 37.5rem;
-$min-width--lg: 50rem;
-$min-width--xl: 75rem;
-
-@mixin min-width($media) {
- @media (min-width: $media) { @content; }
-}
-
-@function tint($color, $percentage) {
-  @return mix(white, $color, $percentage);
-}
-
-@function shade($color, $percentage) {
-  @return mix(black, $color, $percentage);
-}
-
-header, footer, nav, section, article, main, figure, li {
-  display: block;
-}
-
-p {
-  font-size: 1em;
-  line-height: 1.4;
-  margin-top: 0.75em;
-  
-  @include min-width($min-width--md) {
-    font-size: 1.25em;
-  }
-  
-  @include min-width($min-width--lg) {
-    font-size: 1.3125em;
-  }
-}
-
-.constrain-width {
-  width: 90%;
-  margin: 0 auto;
-}
-
-.site-nav {
-  margin-top: 2rem;
-
-  @include min-width($min-width--md) {
-    margin-top: 4rem;
-  }
-}
-
-.site-nav__logo {
-  display: block;
-  margin: 0 auto;
-  height: 5rem;
-}
-
-.intro {
-  margin: 0 auto;
-  padding-top: 1rem;
-  text-align: center;
-
-  @include min-width($min-width--md) {
-    width: 65%;
-  }
+// Components
 @import "components.site-nav";
+@import "components.intro";
+@import "components.article";
+@import "components.article-grid";
+@import "components.footer";
 
-  p:first-child {
-    font-size: 1.3125rem;
-
-    @include min-width($min-width--md) {
-      font-size: 2rem;
-      margin: 1rem 0 0;
-    }
-  }
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 1.5em;
-  padding: 0;
-  margin-top: 1.5rem;
-  
-  @include min-width($min-width--md) {
-    margin-top: 2.75rem;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  @include min-width(1000px) {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-}
-
-.project {
-  margin-top: 2rem;
-
-  @include min-width($min-width--lg) {
-    width: 65%;
-    margin: 2rem auto;
-  }
-
-  @include min-width($min-width--xl) {
-    width: 60%;
-  }
-
-  &__image {
-    margin: 1rem auto;
-  }
-
-  &__title {
-    padding: 0;
-    margin: 0;
-    font-family: freight-text-pro, serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-
-  &__desc {
-    margin: 0;
-    padding: 0;
-    line-height: 1.4;
-    font-family: freight-text-pro, serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-
-  p {
-    a:link, a:visited {
-      color: #364883;
-      font-weight: normal;
-      text-decoration: none;
-    }
-    
-    a:hover, a:active {
-        text-decoration: underline;
-    }
-  }
-
-  p > img {
-    padding: 2rem 0;
-    margin: 0 auto;
-  }
-
-  &__button { 
-    margin: 2rem 0;
-    display: block; 
-    font-family: freight-sans-pro, sans-serif;
-    font-weight: bold;
-    font-size: 1rem;
-
-    & a, & a:visited {
-      color: #364883; 
-      display: inline-block; 
-      text-decoration: none; 
-      padding: .75em 1.75em; 
-      border: 2px solid #364883; 
-      transition: background-color 0.1s ease; 
-    }
-
-    & a:hover, & a:active {
-      background: #364883; 
-      color: #fff; 
-      text-decoration: none; 
-    }
-  }
-}
-
-.img-emphasis {
-  @include min-width($min-width--lg) {
-    width: 120%;
-    margin: 0 -10%;
-  }
-}
+// Utilities
+@import "utilities";
 
 .animation {
   width: 80%;
@@ -205,24 +43,16 @@ p {
       width: 100%;
       height: 100%;
     }
+
+.util-visually-hidden {
+	position: absolute;
+	left: -10000px;
+	top: auto;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	white-space: nowrap;
 }
-
-footer {
-  margin: 2rem 0;
-  text-align: center;
-  color: #545151;
-
-  a:link, a:visited {
-    color: #545151;
-    font-weight: normal;
-    text-decoration: none;
-  }
-  
-  a:hover, a:active {
-      text-decoration: underline;
-  }
-}
-
 .util-visually-hidden {
 	position: absolute;
 	left: -10000px;

@@ -1,0 +1,28 @@
+.intro {
+  margin: 0 auto;
+  padding: 3rem 0 0em;
+  text-align: center;
+  font-family: "Canela Text Regular";
+  font-weight: normal;
+  font-style: normal;
+
+  @include min-width($min-width--xl) {
+    width: 75%;
+  }
+
+  p:first-child {
+    font-size: 1.3125rem;
+
+    @include min-width($min-width--md) {
+      font-size: 2rem;
+      margin: 0;
+    }
+  }
+
+  p:nth-child(2) {
+    font-family: freight-text-pro,serif;
+    font-weight: 400;
+    font-style: italic;
+    color: #737373;
+  }
+}

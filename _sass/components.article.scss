@@ -1,0 +1,118 @@
+.article {
+  margin: 3rem 0 0 0;
+
+  @include min-width($min-width--xl) {
+    width: 50%;
+    margin: 3rem auto 0;
+  }
+
+  &__image {
+    &--lead {
+      margin: 1rem auto 0;
+
+      @include min-width($min-width--xl) {
+        width: 65%;
+        margin: 2rem auto 0;
+      }
+    }
+  }
+
+  h2 {
+    margin: 2rem 0 0;
+    }
+
+  img {
+    padding: 1rem 0;
+    
+    @include min-width($min-width--lg) {
+      padding: 2rem 0;
+
+      & + & {
+        padding: 0;
+      }
+    }
+
+    @include min-width($min-width--xl) {
+      max-width: 130%;
+      margin: 0 -15%;
+    }
+  }
+
+  &__title {
+    margin: 0;
+    padding: 0;
+    font-size: 3rem;
+    font-family: "Canela Text Regular";
+    font-weight: normal;
+    font-style: normal;
+
+    &--emphasis {
+      text-align: center;
+      margin-top: 3rem;
+      font-size: 2rem;
+    }
+  }
+
+  &__link {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  &__date {
+    text-transform: uppercase;
+    color: #777777;
+    font-weight: normal;
+    font-family: freight-neo-pro,sans-serif;
+  }
+
+  &__intro {
+    font-size: 24px;
+  }
+
+  &__desc {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    text-align: center;
+    font-weight: normal;
+    font-style: italic;
+    color: #737373;
+    font-size: 20px;
+  }
+
+  p {
+    line-height: 1.5;
+
+    a:link, a:visited {
+      color: inherit;
+      font-weight: normal;
+      text-decoration: none;
+      border-bottom: 2px solid $peach;
+    }
+
+    a:hover {
+      background: $peach;
+    }
+  }
+
+  &__button { 
+    margin: 2rem 0;
+    display: block; 
+    font-size: 1rem;
+
+    & a, & a:visited {
+      color: #364883; 
+      display: inline-block; 
+      text-decoration: none; 
+      padding: .75em 1.75em; 
+      border: 2px solid #364883; 
+      transition: background-color 0.1s ease; 
+    }
+
+    & a:hover, & a:active {
+      background: #364883; 
+      color: #fff; 
+      text-decoration: none; 
+    }
+  }
+}

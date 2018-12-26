@@ -1,0 +1,35 @@
+.article-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1.5em;
+  padding: 0;
+  margin-top: 1.5rem;
+  
+  @include min-width($min-width--md) {
+    padding-top: 2.75rem;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @include min-width($min-width--xl) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  &__item {
+    position: relative;
+    z-index: 0;
+    transition: transform 0.3s;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      z-index: 1;
+      background: #fff;
+      opacity: 0;
+      pointer-events: none;
+    }
+  }
+}
