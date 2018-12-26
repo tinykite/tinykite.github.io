@@ -1,7 +1,7 @@
 ---
 title: Aeropress Brew Guide
 layout: post
-description: Illustration, Web
+description: Illustration, Web Design & Development
 weight: 7
 image: aeropress-post-header.png
 ---

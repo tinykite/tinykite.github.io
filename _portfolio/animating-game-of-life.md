@@ -1,5 +1,5 @@
 ---
-title: 'PSA: Conway''s Game of Life is a Gateway Drug'
+title: 'Bridging Branding and Mathematics'
 layout: post
 description: Visual Identity, Animation, Web Design & Development
 weight: 9

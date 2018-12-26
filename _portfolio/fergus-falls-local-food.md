@@ -1,5 +1,5 @@
 ---
-title: Love Local Food / Love Fergus Falls
+title: Fergus Falls Food Scavenger Hunt
 weight: 2
 description: Illustration, Print
 image: Love-Local-Food-Thumb.jpg

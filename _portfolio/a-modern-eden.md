@@ -1,7 +1,7 @@
 ---
 title: A Modern Eden
 layout: post
-description: Design, Web Development, Copywriting
+description: Web Design & Development, Copywriting
 weight: 1
 image: ame-hero.png
 ---
@@ -20,15 +20,12 @@ During the discovery phase of the project, I learned that A Modern Eden began as
 40+ drawings later, when it was clear the idea had legs, Clark teamed up with his coworkers and launched a series of print and digital products under the A Modern Eden name: including a series of handmade, screenprinted posters printed on 100lb [French paper](https://www.frenchpaper.com/).
 
 ![Photo of screenprinted posters depicting A Modern Eden animals](/assets/img/ame-posters-wall.png)
-{: .img-emphasis}
 
 I quickly fell in love with the bold, minimal feel of each print. And after doing a little research into the paper they are printed on, I knew that I wanted to find a way to incorporate the feel of the French Paper product line into the new website.
 
 I ended up remixing French Paper-inspired pastels into a color palette that would help communicate A Modern Eden's playful attitude and their appreciation of paper craft and artful print products. 
 
 ![Collage of my French Paper palette choices and a screenshot of the French paper website](/assets/img/ame-french-palette.png)
-{: .img-emphasis}
-
 
 ## Defining Narrative
 
@@ -39,7 +36,6 @@ So how playful could the copywriting be? A couple of brand vocabularly phrases h
 With these phrases in mind, I was able to strategize an adventure-oriented narrative for the brand, and create a series of headlines, short introductory paragraphs, and product descriptions that together tell a cohesive yet entertaining story about what makes the company unique.
 
 ![Example of A Modern Eden website content](/assets/img/ame-content-strategy.png)
-{: .img-emphasis}
 
 ## Pulling It All Together
 The primary target audience for the website was wholesale buyers: and the art direction couldn't get in the way of them quickly understanding what actual products they could order.
@@ -47,14 +43,12 @@ The primary target audience for the website was wholesale buyers: and the art di
 At the same time, it was still crucial to think creatively about how to introduce the A Modern Eden animal kingdom in a creative, unconventional way. 
 
 ![Example of A Modern Eden website content](/assets/img/ame-polar-environment.png)
-{: .img-emphasis}
 
 To satisfy both goals, I structured a single-page website around a series of color-blocked, illustrated environments. Each one introduced curious new faces, gave visitors an understanding of different key brand differentiators, and provided the relevant product information that wholesalers needed.
 
 I'm exceptionally proud of the minimalist landscapes, which were remixed (and recolored) from some of the digital assets for A Modern Eden's wall decals — and which tile seamlessly regardless of the aspect ratio of the browser window. 
 
 ![Example of A Modern Eden website content](/assets/img/ame-ocean-and-desert-environment.png)
-{: .img-emphasis}
 
 ## Designing with Emotion
 With the aid of Ryan Clark's artful illustrations (and Mark Simonson's masterful [Mostra Nuova typeface](https://fonts.adobe.com/fonts/mostra-nuova), available on Typekit) the website now had serious personality. 
