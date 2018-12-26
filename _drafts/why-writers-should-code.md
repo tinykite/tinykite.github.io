@@ -1,8 +1,10 @@
 ---
+title: Why Coding Matters to Publishing
+date: 2018-01-31 00:00:00 Z
 layout: post
-title: "Why Coding Matters to Publishing"
-description: "Should writers and editors code? Absolutely: and it matters how." 
+description: 'Should writers and editors code? Absolutely: and it matters how.'
 ---
+
 I’m a writer and designer who codes. I’m passionate about finding creative ways in which other creatives can feel just as comfortable coding as I do. I think it’s a really valuable asset to career development. And not necessarily for more obvious reasons: for example, to be able to customize a portfolio or feel more capable contributing to an organizational website.
 
 These are valuable reasons for wanting to learn web fundamentals. But there is another, less sexy reason. 

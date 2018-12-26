@@ -1,5 +1,5 @@
 ---
-title: 'Botanic Romantic'
+title: Botanic Romantic
 layout: post
 description: Illustration, Copywriting, Web Design & Development
 weight: 4
