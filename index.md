@@ -2,6 +2,6 @@
 layout: projects
 ---
 
-Dakota Sexton is a visual designer, frontend developer, and writer who creates imaginative, narrative-driven work.
+Dakota Sexton is a visual designer, frontend developer & writer who creates imaginative, narrative-driven work.
 
-_Tiny yet fierce. Loves coffee science, bikes, and antique type._
+_Tiny yet fierce. Lover of bikes, coffee science, and antique type._
