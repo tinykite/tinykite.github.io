@@ -1,9 +1,14 @@
 .article {
   margin: 3rem 0 0 0;
+  max-width: 40rem;
+
+  @include min-width($min-width--lg) {
+    width: 65%;
+    margin: 3rem auto 0;
+  }
 
   @include min-width($min-width--xl) {
     width: 50%;
-    margin: 3rem auto 0;
   }
 
   &__image {
