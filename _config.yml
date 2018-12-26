@@ -23,8 +23,7 @@ defaults:
   values:
     section: Writing
 email: dakota@tinykitelab.com
-description: Tiny Kite is the interdisciplinary design practice of Dakota Sexton,
-  a fierce bird with an appetite for code and creative storytelling.
+description: Tiny Kite is Dakota Sexton, a designer who codes.
 baseurl: ''
 url: ''
 markdown: kramdown
