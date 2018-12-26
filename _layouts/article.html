@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<article class="article">
+	<h1 class="article__title {% if page.longform %}article__title--longform {% endif %}">{{ page.title }}</h1>
+	<h3 class="article__date">{{ page.date | date: '%B %d, %Y' }}</h2>
+  {% if page.image %}<img class="article__image article__image--lead" src="/assets/img/{{ page.image }}">{% endif %}
+	<p class="article__body">{{ content }}</p>
+  <div class="article__button">
+		<a href="/">Return</a>
+  </div>
+</article>
