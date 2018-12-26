@@ -5,22 +5,26 @@ collections:
   posts:
     title: Posts
     output: true
-  projects:
-    title: Projects
+  portfolio:
+    title: Portfolio
     output: true
-    permalink: "/projects/:path/"
-  blog_tags:
-    title: Tags
-    output: true
+    permalink: "/portfolio/:path/"
   uploads:
     title: Uploads
     output: true
 defaults:
-- scope:
-    path: ''
-    type: blog_tags
-  values:
-    layout: tag
+  -
+    scope:
+      path: ""
+    values:
+      section: "Portfolio"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      section: "Writing"
+
 email: dakota@tinykitelab.com
 description: Tiny Kite is the interdisciplinary design practice of Dakota Sexton,
   a fierce bird with an appetite for code and creative storytelling.
