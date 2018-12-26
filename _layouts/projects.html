@@ -1,11 +1,9 @@
 ---
 layout: default
 ---
-
 <section class="intro">
 {{ content }}
 </section>
-
 <section class="article-grid">
   {% assign items = site.portfolio | sort: 'weight' %}
   {% for item in items %}
