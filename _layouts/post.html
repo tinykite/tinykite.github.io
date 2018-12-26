@@ -1,14 +1,12 @@
 ---
 layout: default
 ---
-
-<article class="project">
-  <h1 class="project__title">{{ page.title }}</h1>
-  <h2 class="project__desc">{{ page.description }}</h2>
-  <img class="project__image project__image--lead" src="/assets/img/{{ page.image }}">
-  {% if page.client %} Client: {{ page.client }} {% endif %}
-  <p class="project__body">{{ content }}</p>
-  <div class="project__button">
+<h1 class="article__title article__title--emphasis">{{ page.title }}</h1>
+  <h2 class="article__desc">{{ page.description }}</h2>
+  {% if page.image %}<img class="article__image article__image--lead" src="/assets/img/{{ page.image }}">{% endif %}
+<article class="article">
+  <p class="article__body">{{ content }}</p>
+  <div class="article__button">
 		<a href="/">Return</a>
   </div>
 </article>
