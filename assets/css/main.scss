@@ -75,6 +75,7 @@ p {
   @include min-width($min-width--md) {
     width: 65%;
   }
+@import "components.site-nav";
 
   p:first-child {
     font-size: 1.3125rem;

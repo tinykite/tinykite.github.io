@@ -1,0 +1,51 @@
+.site-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3rem auto 0;
+  letter-spacing: 1px;
+  flex-direction: column;
+
+  @include min-width($min-width--lg) {
+    flex-direction: row;
+  }
+
+  &__nav-list {
+    list-style: none;
+    display: flex; 
+    margin: 1rem 0 0;
+    padding: 0;
+    font-family: freight-neo-pro,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  &__nav-link {
+    color: #737373;
+    text-decoration: none;
+    font-size: 1.125rem;
+
+    &:hover {
+      border-bottom: 2px solid $peach;
+    }
+
+    &--active {
+      color: #737373;
+      text-decoration: none;
+      padding: 0 0 1px;
+      border-bottom: 2px solid $peach;
+    }
+  }
+
+  &__nav-item {
+    & + & {
+      margin-left: 1rem;
+    }
+  }
+
+  &__logo {
+    display: block;
+    height: 3.5rem;
+    width: auto;
+  }
+}

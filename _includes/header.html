@@ -1,5 +1,16 @@
 <header class="site-header">
 	<nav class="site-nav">
-		<a href="/" class="site-nav__item"><img class="site-nav__logo" src="/assets/img/logo-large.png" alt="Tiny Kite Logo"></a>
+		<a href="/" class="site-nav__logo"><img class="site-nav__logo" src="/assets/img/logo-large.png" alt="Tiny Kite Logo"></a>
+		<ul class="site-nav__nav-list">
+		{% for item in site.data.navigation %}
+		  {% assign class = nil %}
+      {% if page.section contains item.title %}
+        {% assign class = 'site-nav__nav-link--active' %}
+      {% endif %}
+		  <li class="site-nav__nav-item">
+			  <a href="{{ item.url }}" class="site-nav__nav-link {{class}}">{{ item.title }}</a>
+			</li> 
+		{% endfor %}
+		</ul>
 	</nav>
 </header>
