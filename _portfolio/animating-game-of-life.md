@@ -5,7 +5,6 @@ description: Visual Identity, Animation, Web Design & Development
 weight: 9
 image: screenshots/paulsexton-homepage-browser.png
 ---
-
 It started simple. My brother [Paul](http://psexton.net) asked me if I could create a business card for him. He's a software engineer by day, maker of bad dad jokes at night. He off-handedly mentioned that he's always been fascinated with the mathematical algorithm known as [Conway's Game of Life](http://conwaylife.com/wiki/Conway%27s_Game_of_Life). And sort of wanted that in easily digestible, logo form. 
 
 Could I do it? 
@@ -18,7 +17,7 @@ The more I experimented, however, the more I felt slightly conflicted.
 
 Minus any academic context, it felt awfully all-or-nothing as a concept. Either someone might catch the isolated reference to a so-called “zero player” game first introduced in the pages of Scientific American in 1970. Or—if they were anything at all like me
 
-![Illustration of Conway Game of Life Automaton](/assets/img/conway-2.png)
+![Illustration of glider automaton from Conway's Game of Life](/assets/img/conway-2.png){: .article__image .article__image--minor}
 
 All the illustration might resemble is a space invader with a giant nose.
 
@@ -28,13 +27,13 @@ As an easter egg for über nerds, it would still need to be primarily comprised 
 
 After multiple rounds of experimentation in Golly, the pattern that successfuly met my own aesthetic criteria – as well as my brother’s own technical ones – ended up being surprisingly simple.
 
-![Illustration of Business Card](/assets/img/conway-businesscard.png)
+![Illustration of Business Card](/assets/img/conway-businesscard.png){: .article__image .article__image--minor}
 
 The back-side pattern of the business card (below) contains four [R-pentominos](http://conwaylife.com/w/index.php?title=R-pentomino) surrounding a common form of [induction coil](http://conwaylife.com/wiki/Induction_coil).
 
 With an induction coil (a classification of pattern often used to stabilize large initial “game” configurations) I was able to place the R-pentominos closely together without sacrificing longevity; The pattern substantially evolves – symmetrically – for close to 2,000 generations.
 
-![Screenshot from Golly](/assets/img/golly-still.png)
+![Screenshot from Golly](/assets/img/golly-still.png){: .article__image .article__image--minor}
 
 You can download the Golly file I created for this experiment [here](http://tinykitelab.com/assets/gol-businesscard.rle).
 
@@ -42,7 +41,7 @@ After finishing work on the business cards, I felt really curious about explorin
 
 I found my opportunity in the website I created for Paul way back in 2012.
 
-![Screenshot of Old Illustration](/assets/img/oldwebsite.png)
+![Screenshot of Old Illustration](/assets/img/oldwebsite.png){: .article__image .article__image--minor}
 
 I orginally created it as a way to learn [ExpressionEngine](https://ellislab.com/expressionengine). As a learning opportunity, it also served as the first time I was ever exposed to the concept of building a website from the inside out, from a series of reusable code snippets and custom site-wide variables – versus solely relying on a system of embedded templates within other templates.
 
