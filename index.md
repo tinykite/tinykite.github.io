@@ -1,5 +1,5 @@
 ---
-layout: projects
+layout: index
 ---
 
 Dakota Sexton is a visual designer, frontend developer & writer who creates imaginative, narrative-driven work.

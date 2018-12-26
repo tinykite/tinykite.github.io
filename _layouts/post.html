@@ -1,12 +1,21 @@
 ---
 layout: default
 ---
+{% if page.weight %}
 <h1 class="article__title article__title--emphasis">{{ page.title }}</h1>
-  <h2 class="article__desc">{{ page.description }}</h2>
-  {% if page.image %}<img class="article__image article__image--lead" src="/assets/img/{{ page.image }}">{% endif %}
+<h2 class="article__desc">{{ page.description }}</h2>
+{% if page.image %}<img class="article__image article__image--lead" src="/assets/img/{{ page.image }}">{% endif %}
 <article class="article">
   <p class="article__body">{{ content }}</p>
+{% else %}
+<article class="article">
+  <h1 class="article__title {% if page.longform %}article__title--longform {% endif %}">{{ page.title }}</h1>
+  <h3 class="article__date">{{ page.date | date: '%B %d, %Y' }}</h2>
+  {% if page.image %}<img class="article__image article__image--lead" src="/assets/img/{{ page.image }}">{% endif %}
+  <p class="article__body">{{ content }}</p>
+{% endif %}
   <div class="article__button">
-		<a href="/">Return</a>
+    <a href="/">Return</a>
   </div>
 </article>
+

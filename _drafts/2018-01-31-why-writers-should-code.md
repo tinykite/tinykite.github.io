@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: "Why Coding Matters to Publishing"
 description: "Should writers and editors code? Absolutely: and it matters how." 
 ---
