@@ -1,5 +1,5 @@
 ---
-title: 'Bridging Branding and Mathematics'
+title: 'Exploring the Borderlands Between Math + Branding'
 layout: post
 description: Visual Identity, Animation, Web Design & Development
 weight: 9
