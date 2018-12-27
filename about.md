@@ -1,9 +1,10 @@
 ---
+title: About
 layout: page
 section: About
-title: About
 headline: Hello, I'm Dakota
 ---
+
 I’m a designer who codes, driven by a deep love of type, technology, and storytelling.
 {: .article__intro}
 
