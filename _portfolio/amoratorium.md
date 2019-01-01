@@ -6,7 +6,7 @@ weight: 8
 image: Amoratorium-Thumb.jpg
 ---
 
-In 2014, musician Brian Laidlaw reached out to Paper Darts to produce an artful coffee table book that would blur the lines between songwriting, art, and poetry. 
+In 2014, musician Brian Laidlaw reached out to [Paper Darts](http://www.paperdarts.org/) to produce an artful coffee table book that would blur the lines between songwriting, art, and poetry. 
 
 He told us that it would feature poetry and an LP of live recordings of music inspired by Bonnie and Clyde. But he didn't want it to appear to be a period piece —
 
