@@ -2,7 +2,7 @@
 title: Liz Pechacek Ceramics
 weight: 3
 description: Identity Design, Web Design & Development
-image: screenshots/lizpechacek-sculptures-browser.png
+image: screenshots/lizpechacek-item-browser.png
 layout: post
 ---
 
@@ -41,7 +41,7 @@ When the mark was finished, I paired it with Graviola Soft, a font designed by B
 ## Web Design and Development
 Liz needed to get a website off the ground relatively quickly, in advance of the trade show season that helps art entrepreneurs stay financially afloat. In addition, she needed the website to function just as well as an artist’s portfolio as an online store.  
 
-![Screenshot of tiny ceramic cups for sale on a website](/assets/img/screenshots/lizpechacek-item-browser.png)
+![Screenshot of Liz Pechacek sculpture](/assets/img/screenshots/lizpechacek-sculptures-browser.png)
 
 For these reasons (and Liz’s prior familiarity with the platform) we decided to launch the website on [Squarespace](https://www.squarespace.com).
 
