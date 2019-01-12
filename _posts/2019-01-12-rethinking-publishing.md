@@ -37,7 +37,7 @@ The Wordpress website that followed wasn’t much better. So I don’t blame any
 
 Yet it doesn’t have to be this way. If writers and editors learn to code — or get more comfortable with researching relevant technologies — we can become more active participants in conversations about what tools we should adopt for future projects. We can weigh the pros and cons of a particular platform, and ask questions about how closely it's tailored to our actual needs. 
 
-We can discover entirely new approaches to publishing content on the web, in a way that makes it easier to separate the actual content from the websites that present it. We can even avoid databases altogether, which is certainly the dumpster fire causing a disaster for someone in media at any and given moment.
+We can discover [new](https://www.siteleaf.com/) [approaches](https://www.vapid.com/) to publishing content on the web, in a way that makes it easier to separate the actual content from the websites that present it. We can even avoid databases altogether, which is certainly the dumpster fire causing a disaster for someone in media at any and given moment.
 
 We can also avoid relying on platforms that make it difficult, if not impossible, to casually export or otherwise own the content we create.
 
