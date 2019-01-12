@@ -1,8 +1,11 @@
 ---
 title: Rethinking Publishing on the Web
+date: 2019-01-12 00:00:00 Z
 layout: post
-description: Should writers and editors learn to code? Why we should all advocate for tools that improve the web. 
+description: Should writers and editors learn to code? Why we should all advocate
+  for tools that improve the web.
 ---
+
 I’m a designer who codes. But I also enjoy writing, and I spent the first several years of my career as a staff writer and editor for publications ranging from [consumer magazines](https://craftcouncil.org/) to [whimsically-named literary journals](http://www.paperdarts.org/). Since then, I’ve felt increasingly passionate about encouraging other writers and creatives to code — and to get just as excited as I am about the future of the web. 
 
 Getting your hands dirty with the fundamentals of HTML and CSS can make it easier to build or update an online portfolio. Or be the gateway drug to interactive storytelling experiments and even [unconventional adventures in data-driven journalism](https://pudding.cool/). 
