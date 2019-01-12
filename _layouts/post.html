@@ -9,9 +9,9 @@ layout: default
 <article class="article">
   <p class="article__body">{{ content }}</p>
 {% else %}
-<article class="article">
-  <h1 class="article__title {% if page.longform %}article__title--longform {% endif %}">{{ page.title }}</h1>
-  <h3 class="article__date">{{ page.date | date: '%B %d, %Y' }}</h2>
+<article class="article article--longform">
+  <h1 class="article__title">{{ page.title }}</h1>
+  <h3 class="article__date">{{ page.date | date: '%B %d, %Y' }}</h3>
   {% if page.image %}<img class="article__image article__image--lead" src="/assets/img/{{ page.image }}">{% endif %}
   <p class="article__body">{{ content }}</p>
 {% endif %}
