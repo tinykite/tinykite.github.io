@@ -43,5 +43,5 @@ We can also avoid relying on platforms that make it difficult, if not impossible
 
 We can stop worrying about how [the smell of a CMS](https://vimeo.com/53317254) might affect the pre-baked appearance of our publications — or limit our ability to pursue unconventional approaches to storytelling. 
 
-And perhaps most importantly, we can advocate for software development teams that prioritize accessibility, and speak up when the problematic leadership behind one of the most commonly used content management platforms on the web [makes it clear that his team will not](https://www.smashingmagazine.com/2018/12/gutenberg-accessibility-situation/). 
+And perhaps most importantly, we can advocate for software development teams that prioritize accessibility, and speak up when the problematic leadership of an incredibly popular tool [makes it unfortunately clear that his team does not](https://www.smashingmagazine.com/2018/12/gutenberg-accessibility-situation/). 
 
