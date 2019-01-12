@@ -7,7 +7,7 @@ I’m a designer who codes. But I also enjoy writing, and I spent the first seve
 
 Getting your hands dirty with the fundamentals of HTML and CSS can make it easier to build or update an online portfolio. Or be the gateway drug to interactive storytelling experiments and even [unconventional adventures in data-driven journalism](https://pudding.cool/). 
 
-But that’s not what I want to talk about. There’s something far less sexy that I don’t think gets the discussion it deserves. And that’s the relative impermanence of writing on the web, and why it matters that we all get involved with advocating for meaningful, inclusive technologies. 
+But that’s not what I want to talk about. There’s something far less sexy that I don’t think gets the discussion it deserves. And that’s the relative impermanence of writing on the web.
 
 A year ago, I was saddened to discover that [The Awl](https://www.newyorker.com/culture/cultural-comment/the-end-of-the-awl-and-the-vanishing-of-freedom-and-fun-from-the-internet) and its sister publication — [The Hairpin](https://www.thehairpin.com/) — would be retired after nearly a decade of championing incredibly weird and honest and often brilliant approaches to journalism, including the all-caps filled “existential advice column” that many of us know and love as [Ask Polly](http://nymag.com/tags/ask-polly/). 
 
