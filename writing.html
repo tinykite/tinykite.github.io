@@ -9,6 +9,9 @@ section: Writing
 			<a class="article__link" href="{{ post.url | prepend: site.baseurl }}"><h2 class="article__title">{{ post.title }}</h2></a>
 			<h3 class="article__date">{{ post.date | date: '%B %d, %Y' }}</h3>
 			<p>{{ post.description }}</p>
+			<p>
+				<a class="article__link" aria-hidden="true" href="{{ post.url | prepend: site.baseurl }}"><em>Read More »</em></a>
+			</p>
     </article>
 		{% endfor %}	
 </article>
