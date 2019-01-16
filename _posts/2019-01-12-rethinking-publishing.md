@@ -1,14 +1,14 @@
 ---
-title: Rethinking Publishing on the Web
+title: Should Writers Code? Rethinking Publishing on the Web
 date: 2019-01-12 00:00:00 Z
 layout: post
-description: Should writers and editors learn to code? Why we should all advocate
+description: Why we should all advocate
   for tools that improve the web.
 ---
 
 I’m a designer who codes. But I also enjoy writing, and I spent the first several years of my career as a staff writer and editor for publications ranging from [consumer magazines](https://craftcouncil.org/) to [whimsically-named literary journals](http://www.paperdarts.org/). Since then, I’ve felt increasingly passionate about encouraging other writers and creatives to code — and to get just as excited as I am about the future of the web. 
 
-Getting your hands dirty with the fundamentals of HTML and CSS can make it easier to build or update an online portfolio. Or be the gateway drug to interactive storytelling experiments and even [unconventional adventures in data-driven journalism](https://pudding.cool/). 
+Getting your hands dirty with the fundamentals of HTML and CSS can make it easier to build or update an online portfolio. Or be the gateway drug to interactive storytelling experiments and even unconventional adventures in data-driven journalism, such as The Pudding's exploration of how [women's pants pockets are inferior](https://pudding.cool/2018/08/pockets/). 
 
 But that’s not what I want to talk about. There’s something far less sexy that I don’t think gets the discussion it deserves. And that’s the relative impermanence of writing on the web.
 
@@ -40,11 +40,11 @@ The Wordpress website that followed wasn’t much better. So I don’t blame any
 
 Yet it doesn’t have to be this way. If writers and editors learn to code — or get more comfortable with researching relevant technologies — we can become more active participants in conversations about what tools we should adopt for future projects. We can weigh the pros and cons of a particular platform, and ask questions about how closely it's tailored to our actual needs. 
 
-We can discover [new](https://www.siteleaf.com/) [approaches](https://www.vapid.com/) to publishing content on the web, in a way that makes it easier to separate the actual content from the websites that present it. We can even avoid databases altogether, which is certainly the dumpster fire causing a disaster for someone in media at any and given moment.
+We can discover [new](https://www.siteleaf.com/) [approaches](https://www.vapid.com/) to publishing content on the web, in a way that makes it easier to separate content from code. We can even save ourselves from the headache of using databases to maintain that content, which is certainly the dumpster fire causing a disaster for someone in media at any and every given moment.
 
 We can also avoid relying on platforms that make it difficult, if not impossible, to casually export or otherwise own the content we create.
 
-We can stop worrying about how [the smell of a CMS](https://vimeo.com/53317254) might affect the pre-baked appearance of our publications — or limit our ability to pursue unconventional approaches to storytelling. 
+We can stop worrying about how our choice of CMS [might impart a certain, unmistakeable smell](https://vimeo.com/53317254) and affect the pre-baked appearance of our publications — or limit our ability to pursue unconventional approaches to storytelling. 
 
 And perhaps most importantly, we can advocate for software development teams that prioritize accessibility, and speak up when the problematic leadership of an incredibly popular tool [makes it unfortunately clear that his team does not](https://www.smashingmagazine.com/2018/12/gutenberg-accessibility-situation/). 
 
