@@ -2,7 +2,7 @@
 title: Botanic Romantic
 layout: post
 description: Illustration, Copywriting, Web Design & Development
-weight: 4
+weight: 5
 image: botromantic-foraging101-header.png
 ---
 

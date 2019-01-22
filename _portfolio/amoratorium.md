@@ -2,7 +2,7 @@
 title: Amoratorium
 layout: post
 description: Art Direction, Graphic Design
-weight: 8
+weight: 5
 image: Amoratorium-Thumb.jpg
 ---
 
