@@ -13,6 +13,11 @@
     &--longform {
       width: 55%;
     }
+
+    &--list {
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 2.5rem;
+    }
   }
 
   &__image {
@@ -69,6 +74,10 @@
       margin-top: 3rem;
       font-size: 2rem;
     }
+
+    &--list {
+      font-size: 2.5rem;
+    }
   }
 
   &__link {
@@ -96,7 +105,15 @@
     font-weight: normal;
     font-style: italic;
     color: #737373;
-    font-size: 20px;
+    font-size: 1.25rem;
+
+    &--list {
+      text-align: left;
+      font-size: 1.25rem; 
+      margin: 1rem 0; 
+      font-style: normal;
+      color: #000;
+    }
   }
 
   p {
