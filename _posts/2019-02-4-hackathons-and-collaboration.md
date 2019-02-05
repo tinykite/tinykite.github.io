@@ -39,10 +39,8 @@ This is my team, shortly after noon on demo day, hyped up on caffeine and excite
 
 We honestly didn’t think we were going to win anything. In the end, what we had on our hands was several web pages linked together using React. Beautiful pages — built with an in-depth understanding of cyber security challenges and education theory. And a desire to make it approachable and even entertaining for anyone to learn about how to empower themselves to be less vulnerable online. 
 
-Maybe that wouldn’t seem innovative. But we’d done it together, and we felt incredibly proud. 
+Maybe that wouldn’t seem innovative. But we’d done it together, and we felt incredibly proud. And the weird thing? 
 
-And so we presented. And then we waited. 
+We did actually win two awards: 2nd place overall and the “Thirst for Growth” award for taking risks with emerging technology. And in the future? 
 
-And then won the 2nd place — and the “Thirst for Growth” award for taking risks with emerging technology. And in the future? 
-
-We're hoping to actually launch Securiosity as a free platform for promoting cyber security education. 
+We're hoping to actually launch Securiosity as a free platform for promoting cyber security education. So stay tuned, y'all. 
