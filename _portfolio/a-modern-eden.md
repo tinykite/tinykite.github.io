@@ -3,7 +3,7 @@ title: A Modern Eden
 layout: post
 description: Web Design & Development, Copywriting
 weight: 1
-image: ame-hero.png
+image: ame-tall-hero.png
 ---
 
 During the summer of 2018 I had the pleasure of participating in the [Frontend Design Apprenticeship at Sparkbox](https://seesparkbox.com/foundry/2018_fed_apprentice_announcement). For four months, I worked on real-world projects, paired with industry-leading designers and developers, and honed my expertise in topics ranging from [how to use accessibility as a design constraint](https://seesparkbox.com/foundry/accessible_by_design) to [how cleanly code randomness into a CSS animation of bubbles.](https://seesparkbox.com/foundry/scrolling_css_animations)
