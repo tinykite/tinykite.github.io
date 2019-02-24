@@ -5,6 +5,7 @@
   margin: 3rem auto 0;
   letter-spacing: 1px;
   flex-direction: column;
+  width: 80%;
 
   @include min-width($min-width--lg) {
     flex-direction: row;
