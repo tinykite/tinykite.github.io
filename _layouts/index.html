@@ -1,10 +1,11 @@
 ---
 layout: default
 ---
-
+<div class="constrain-width">
 <section class="intro"> 
   {{ content }}
 </section>
+</div>
 
 <section class="article-grid">
   {% assign items = site.portfolio | sort: 'weight' %}
