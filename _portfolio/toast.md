@@ -2,7 +2,7 @@
 title: Toast Nostalgia
 layout: post
 description: Illustration, Web Design & Development
-weight: 4
+weight: 5
 image: toast-thumb.png
 ---
 

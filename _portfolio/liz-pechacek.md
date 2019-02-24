@@ -1,6 +1,6 @@
 ---
 title: Liz Pechacek Ceramics
-weight: 3
+weight: 6
 description: Identity Design, Web Design & Development
 image: screenshots/lizpechacek-item-browser.png
 layout: post
