@@ -134,21 +134,26 @@
 
   &__button { 
     margin: 2rem 0;
-    display: block; 
+    display: inline-block; 
     font-size: 1rem;
+    font-family: freight-neo-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #364883;  
+    padding: .75em 1.75em; 
+    border: 2px solid #364883; 
+    letter-spacing: 1px;
+    transition: background-color 0.1s ease; 
 
-    & a, & a:visited {
-      color: #364883; 
-      display: inline-block; 
-      text-decoration: none; 
-      padding: .75em 1.75em; 
-      border: 2px solid #364883; 
-      transition: background-color 0.1s ease; 
+    &:hover {
+      text-decoration: none;
+      color:  #fff; 
+      background-color: #364883;
     }
 
-    & a:hover, & a:active {
-      background: #364883; 
-      color: #fff; 
+    & a, & a:visited, & a:hover, & a:active {
+      color: inherit;
       text-decoration: none; 
     }
   }
