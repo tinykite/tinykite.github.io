@@ -39,7 +39,7 @@ This brand vocabulary list was invaluable to the process:
 
 I was particularly inspired by the last two items on the list. Approachable and delightful are both admirable traits for individuals in public-facing roles (such as Flight Attendants), and felt like key terms to try to convey visually. 
 
-![Moodboard demonstrating common visual depictions of moderness, such as modernist buildings, simple icons, and furniture from Herman Miller](/assets/img/AEIR-moodboard.jpg)
+![Moodboard demonstrating common visual depictions of moderness, such as modernist buildings, simple icons, and furniture from Herman Miller](/assets/img/aeir-moodboard.jpg)
 
 So I used a moodboard to explore how photography of real-life AEIR employees could convey that sense of friendliness, and be complemented by a modernist, buttoned-up sort of sensibility — another crucial aspect of the airline's brand.
 
