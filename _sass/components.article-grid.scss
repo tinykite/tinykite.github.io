@@ -3,7 +3,8 @@
   grid-template-columns: 1fr;
   grid-gap: 1.5em;
   padding: 0;
-  margin-top: 1.5rem;
+  width: 90%;
+  margin: 1.5rem auto 0;
   
   @include min-width($min-width--md) {
     padding-top: 2.75rem;
@@ -12,6 +13,7 @@
 
   @include min-width($min-width--xl) {
     grid-template-columns: 1fr 1fr 1fr;
+    max-width: 90rem;
   }
 
   &__item {

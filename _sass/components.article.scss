@@ -10,6 +10,7 @@
 
   @include min-width($min-width--xl) {
     width: 50%;
+    max-width: 90rem;
 
     &--longform {
       width: 55%;
