@@ -14,7 +14,8 @@ collections:
     output: true
   archive:
     title: Archive
-    output: false
+    output: true
+    permalink: "/portfolio/archive/:path/"
 defaults:
 - scope:
     path: ''
